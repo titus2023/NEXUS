@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY | DR AGGREY</title>
+    <link rel="stylesheet" href="stylesheet/login.css" type="text/css">
+    <style></style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our Library</h1>
+    </div>
+    <div class="container">
+        <div class="contact-form">
+            <form action="log_in.php" method="POST">
+              <h2>Fill the information below to borrow a book.</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="admission">Admission:</label>
+                <input type="admission" id="admission" name="admission" placeholder="Your Admission" required>
+
+                  <label for="Form ">Form  Level:</label>
+                <select id="cate " name="Form ">
+                  <option value="select">Select Form </option>
+                    <option value="Form 4">Form 4</option>
+                    <option value="Form 3">Form 3</option>
+                    <option value="Form 2">Form 2</option>
+                    <option value="Form 1">Form 1</option>
+                    <!-- form 1-4 option menu -->
+                </select>
+
+                <label for="Form ">Stream:</label>
+                <select id="cate " name="Form ">
+                  <option value="select">Select Stream </option>
+                    <option value="Form 4">Blue</option>
+                    <option value="Form 3">Green</option>
+                    <option value="Form 1">Purple</option>
+                    <option value="Form 1">Q</option>
+                    <option value="Form 1">Red</option>
+                    <option value="Form 1">T</option>
+                    <option value="Form 1">White</option>
+                    <option value="Form 2">Yellow</option>
+                    <option value="Form 1">Z</option>
+                    <!-- form 1-4 option menu -->
+                </select>
+
+                <label for="book">Book:</label>
+                <input type="text" id="Book" name="book" placeholder="eg. The pearl">
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" placeholder="Type your text here..." required></textarea>
+
+                <label for="book">Date Picked:</label>
+                <input type="date" id="Picked" name="picked" placeholder="eg. 10/10/2023">
+
+                <label for="book">Date Returned:</label>
+                <input type="date" id="Returned" name="returned">
+                
+                <input type="submit" value="Submit Application" class="button">
+            </form>
+      <footer>
+        <div class="footer">
+            <p>&copy; 2023 Dr Aggrey High School. All rights reserved.</p>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+              </ul>
+            </div>
+        </footer>
+        </div>
+      </div>
+      </body>
+</html>
